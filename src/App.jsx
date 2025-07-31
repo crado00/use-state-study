@@ -1,10 +1,12 @@
 import { useState } from 'react'
 import Counter from './components/Counter';
+import InputTest from './components/InputText';
+import ItemAdd from "./components/ItemAdd";
 
 const App = () => {
   return (
     <div className="bg-red-100 min-h-screen flex justify-center items-center">
-      <Counter/>
+      <ItemAdd />
     </div>
   );
 };
